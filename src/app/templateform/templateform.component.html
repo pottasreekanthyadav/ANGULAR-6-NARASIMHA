@@ -1,0 +1,16 @@
+<style type="text/css">
+	.c1{
+		color: red;
+	}
+</style>
+<h3>Angular Form Validation</h3>
+<hr>
+
+<form #form="ngForm">
+	
+First Name:<input type="text"  name="name"  #t1="ngModel" required="true"  [(ngModel)]="fname">
+{{t1.invalid}}
+</form>
+
+
+<p  class="c1"  *ngIf="t1.invalid && t1.dirty">First Name iS req</p>
