@@ -14,11 +14,12 @@ import { BindingComponent } from './binding/binding.component';
 import { SaiComponent } from './sai/sai.component';
 import { CustompipeComponent } from './custompipe/custompipe.component';
 import { TemplateformComponent } from './templateform/templateform.component';
+import { ServicesComponent } from './services/services.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,DemoComponent,Rangepipe, EmpComponent, StudentComponent, RamComponent, PipesComponent, BindingComponent, SaiComponent, CustompipeComponent, TemplateformComponent
+    AppComponent,DemoComponent,Rangepipe, EmpComponent, StudentComponent, RamComponent, PipesComponent, BindingComponent, SaiComponent, CustompipeComponent, TemplateformComponent, ServicesComponent
   ],
   imports: [
     BrowserModule,FormsModule
