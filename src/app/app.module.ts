@@ -15,6 +15,7 @@ import { SaiComponent } from './sai/sai.component';
 import { CustompipeComponent } from './custompipe/custompipe.component';
 import { TemplateformComponent } from './templateform/templateform.component';
 import { ServicesComponent } from './services/services.component';
+import { Loginservice} from './services/loginservice';
 
 
 @NgModule({
@@ -24,7 +25,7 @@ import { ServicesComponent } from './services/services.component';
   imports: [
     BrowserModule,FormsModule
   ],
-  providers: [],
+  providers: [Loginservice],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
