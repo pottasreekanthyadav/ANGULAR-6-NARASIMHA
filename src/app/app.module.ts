@@ -16,14 +16,17 @@ import { CustompipeComponent } from './custompipe/custompipe.component';
 import { TemplateformComponent } from './templateform/templateform.component';
 import { ServicesComponent } from './services/services.component';
 import { Loginservice} from './services/loginservice';
+import { HttpserviceComponent } from './httpservice/httpservice.component';
+import{HttpClientModule} from '@angular/common/http';
+import { CurdComponent } from './curd/curd.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,DemoComponent,Rangepipe, EmpComponent, StudentComponent, RamComponent, PipesComponent, BindingComponent, SaiComponent, CustompipeComponent, TemplateformComponent, ServicesComponent
+    AppComponent,DemoComponent,Rangepipe, EmpComponent, StudentComponent, RamComponent, PipesComponent, BindingComponent, SaiComponent, CustompipeComponent, TemplateformComponent, ServicesComponent, HttpserviceComponent, CurdComponent
   ],
   imports: [
-    BrowserModule,FormsModule
+    BrowserModule,FormsModule,HttpClientModule
   ],
   providers: [Loginservice],
   bootstrap: [AppComponent]

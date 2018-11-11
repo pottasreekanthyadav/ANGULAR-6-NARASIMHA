@@ -7,5 +7,12 @@ import { Component } from '@angular/core';
 export class TemplateformComponent  {
 public fname:string="";
 public lname:string="";
+public city:string="";
+public email:string="";
+public pincode:number;
+public f1():void{
+
+	alert("Customer Details Are Inserted");
+}
   
 }

@@ -10,4 +10,8 @@ export class Loginservice{
 			return "Invalid UserName and Password";
 		}
 	}
+
+	public test():string{
+		return "sai ramaa"; 
+	}
 }
